@@ -1,0 +1,76 @@
+<html>
+<head>
+<title>Enroll</title>
+<style>
+body {
+ background-image: url("C:/Users/Nazeer Ahmed D/Desktop/resh Destop/Re$h 6th sem/IT/project/campus.jpg");
+ background-repeat:no-repeat;
+ background-size: 1400px 930px;
+ margin:0;
+ color: white;
+}
+.button {
+    text-align:center;
+    background-color:transparent;
+    padding: 14px 18px;
+}
+.button1 {
+    background-color: transparent;
+    color: white;
+}
+
+.button1:hover {
+    background-color: #e7e7e7;
+    color: red;
+}
+</style>
+</head>
+<body>
+<center><h1 class="major">Enrollment</h1></center>
+<center>
+<fieldset>
+<form action="login.php" method=POST>
+<center><h2> Student Details </h2></center>
+<center><h4>---- All are Mandatory Fields----</h4></center>
+University Application Number:	<input type="text" name="UAN" required placeholder="Enter University Application Number">
+<br>
+Name:	<input type="text" name="SName" required placeholder="FirstName MiddleName LastName">
+<br>
+Gender:	<input type="text" name="Gender" required placeholder="M / F / Other">
+<br>
+Date of Birth:	<input type="text" name="DOB" required placeholder="YYYY-MM-DD">
+<br>
+Blood Group:	<input type="text" name="BG" required placeholder="Blood Group (+ve / -ve)">
+<br>
+Mobile Number:	<input type="text" name="SMobile" required placeholder="XXXXXXXXXXX">
+<br>
+Email:	<input type="text" name="SEmail" required placeholder="abc@gmail.com">
+<br>
+Permanent Address:	<textarea rows="5" cols="50" name="PAddress" required placeholder="Enter Address here."></textarea>
+<br>
+<center><h2> Parent Details </h2></center>
+Father's Name:	<input type="text" name="FName" required placeholder="FirstName MiddleName LastName">
+<br>
+Father's Mobile Number:	<input type="text" name="FMobile" required placeholder="XXXXXXXXXXX">
+<br>
+Father's Email:	<input type="text" name="FEmail" required placeholder="abc@gmail.com">
+<br>
+Mother's Name:	<input type="text" name="MName" required placeholder="FirstName MiddleName LastName">
+<br>
+Mother's Mobile Number:	<input type="text" name="MMobile" required placeholder="XXXXXXXXXXX">
+<br>
+Mother's Email: <input type="text" name="MEmail" required placeholder="abc@gmail.com">
+<br>
+Registered Mobile Number: <input type="text" name="RMobile" required placeholder="XXXXXXXXXXX">
+<br>
+<p> <b> NOTE: </b>The registered mobile number will be the number used for communication from the hostel. Parents of the applicant are expected to be available in this number all the time. In case of any change in number, it should be updated in person. </p>
+Local Address (if any): <textarea rows="5" cols="50" name="LAddress" required placeholder="Enter Address here."></textarea>
+<br>
+Local Guardian Contact (if any): <input type="text" name="GMobile" required placeholder="XXXXXXXXXXX">
+<br/><br/><br/>
+<button class="button button1">Enroll</button>
+</fieldset>
+</form>
+</center>
+</body>
+</html>

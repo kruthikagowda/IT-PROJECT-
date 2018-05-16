@@ -1,0 +1,96 @@
+<html>
+<head>
+<title>Outpass</title>
+<style>
+body {
+ background-image: url("campus.jpeg");
+ background-repeat:no-repeat;
+ background-size: 1400px 930px;
+ color: white;
+}
+b.serif {
+    font-family:"Times New Roman",Timer, serif;
+}
+fieldset { 
+    display: block;
+    margin-left: 250px;
+    margin-right:250px;
+    padding-top: 30px;
+    padding-bottom: 0px;
+    background-color:#bce5ec;
+    
+    border-color:#F0F8FF;
+}
+.button {
+    text-align:center;
+    background-color:transparent;
+    padding: 14px 18px;
+    border-radius: 12px;
+}
+.button1 {
+    background-color: transparent;
+    color:#F0F8FF;
+}
+
+.button1:hover {
+    background-color:#A9A9A9;
+    color: black;
+    
+}
+.col-container {
+    display: table;
+    width: 50%;
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color:#A9A9A9;
+}
+.col {
+    display: table-cell;
+    font-style: normal;
+    font-family: "Times New Roman",serif;
+}
+
+</style>
+<script>
+function validate()
+ {
+        if( document.myForm.Hostel-ID.value == "" ||
+ 	isNaN( document.myForm.Hostel-ID.value ) ||
+ 	document.myForm.Hostel-ID.value.length != 15 )
+ 	{
+ 	alert( "Please provide a valid number." );
+ 	document.myForm.Hostel-ID.focus() ;
+ 	return false;
+ 	}
+        alert("Done successfully");
+	return (true)
+	}
+</script>
+</head>
+<body>
+<br/><br/><br/><br/><br/><br/>
+<center><font size="7" color="teal"><b>OutPass</b></font></center>
+<center>
+
+<form action="outpass.php" method="POST">
+<fieldset>
+<p>ID: <input type="text" placeholder="ID" name="id" required> </p> 
+<p>Name: <input type="text" placeholder="name" name="name" required> </p> 
+<p>Reason:
+<input type="checkbox" name="parents" value="r1"> Meet parents <br>
+<input type="checkbox" name="friends" value="r2"> Out with friends <br>
+<input type="checkbox" name="others" value="r3"> Other reasons <br></p>
+<p> <input type="submit" name="submit" value="Submit"></a></p>
+</fieldset>
+
+</form>
+
+</center>
+
+</body>
+
+</html>
+
+
+</body>
+</html>

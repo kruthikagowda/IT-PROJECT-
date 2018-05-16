@@ -1,0 +1,83 @@
+<html>
+<head>
+<title>Confirmation</title>
+<style>
+body {
+ background-image: url("campus.jpeg");
+ background-repeat:no-repeat;
+ background-size: 1400px 700px;
+ margin:0;
+ color:white;
+}
+fieldset { 
+    display: block;
+    margin-left: 400px;
+    margin-right:400px;
+    padding-top: 30px;
+    padding-bottom: 0px;
+    background-color:#A9A9A9;
+    background:rgba(0, 0, 0, 0.8);
+    border-color:#F0F8FF;
+}
+.button {
+    text-align:center;
+    background-color:transparent;
+    padding: 14px 18px;
+    border-radius: 12px;
+}
+.button1 {
+    background-color: transparent;
+    color:#F0F8FF;
+}
+
+.button1:hover {
+    background-color:#A9A9A9;
+    color: black;
+    
+}
+</style>
+<script>
+function validate()
+ {
+        if( document.myForm.Hostel-ID.value == "" ||
+ 	isNaN( document.myForm.Hostel-ID.value ) ||
+ 	document.myForm.Hostel-ID.value.length != 15 )
+ 	{
+ 	alert( "Please provide a valid number." );
+ 	document.myForm.Hostel-ID.focus() ;
+ 	return false;
+ 	}
+        alert("Registered successfully");
+	return (true)
+	}
+</script>
+</head>
+<body>
+<br/><br/><br/><br/>
+<center><font size="7" color="#F0F8FF" style="font-family:time new roman;"><b>Confirm to Enroll</b></font></center>
+<center>
+<br/><br/><br/><br/>
+<form name = "myForm" onsubmit="return(validate());" action="confirm.php" method="post">
+
+
+<fieldset>
+<br/>
+<b>Name:</b> <input type="text" placeholder="Name" name="uname" required>
+<br/><br/><br/>
+<b>Hostel-ID:</b> <input type="password"  placeholder="Enter a valid ID" name="password" required>
+<br/><br/><br/><br/>
+<button class="button button1"><b>Submit</b></button>	
+<br/><br/><br/>
+</fieldset>
+<br/><br/>
+</form>
+
+</center>
+
+</body>
+
+</html>
+
+
+</body>
+</html>

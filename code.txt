@@ -1,0 +1,950 @@
+
+HOME PAGE
+
+<html>
+<head>
+<title>PU Hostel Management</title>
+<style>
+body {
+ background-image: url("campus.jpeg");
+ background-repeat:no-repeat;
+ background-size: 1400px 700px;
+ margin:0;
+}
+.box {   
+    color:white;
+    background-color:transparent;
+    padding: 25px;
+    margin: 50px;
+}
+.button {
+    text-align:center;
+    background-color:transparent;
+    padding: 14px 18px;
+    border-radius: 12px;
+}
+.button1 {
+    background-color: transparent;
+    color:#F0F8FF;
+}
+
+.button1:hover {
+    background-color:#A9A9A9;
+    color: black;
+    
+}
+
+</style>
+</head>
+<body>
+<center>
+<div class="box">  </br>
+<pre><font size="7" color="teal" style="font-family:time new roman;"><b> PU-HOSTEL</b></font></pre>
+<br/><br/>
+<marquee><font size="4" color="red" style="font-family:time new roman;">Admissions open for 2018-19</marquee>
+<br/><br/><br/><br/>
+<font size="5" color="#F0F8FF" style="font-family:time new roman;"><b><i>ANOTHER HOME TO STAY!!!</i></b></font>
+<br/><br/><br/><br/><br/><br/><br/>
+<button onclick="window.location.href='about.html'" class="button button1"><b>ABOUT</b></button>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<button onclick="window.location.href='login.html'" class="button button1"><b>LOGIN</b></button>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<button onclick="window.location.href='/var/www/html/hostel/hostels.pdf'" class="button button1"><b>FACILITY</b></button>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<button onclick="window.location.href='gallery.html'" class="button button1"><b>GALLERY</b></button>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<button onclick="window.location.href='/var/www/html/hostel/checklist.pdf'" class="button button1"><b>CHECK-LIST</b></button>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<button onclick="window.location.href='contact.html'" class="button button1"><b>CONTACT</b></button>
+</div>
+</center>
+</body>
+</html>
+
+
+ABOUT THE COLLAGE 
+
+<html>
+<head>
+<title>About</title>
+<style>
+body {
+ background-image: url("campus.jpeg");
+ background-repeat:no-repeat;
+ background-size: 1400px 930px;
+ color: white;
+}
+b.serif {
+    font-family:"Times New Roman",Timer, serif;	
+    color:black;
+}
+fieldset { 
+    display: block;
+    margin-left: 250px;
+    margin-right:250px;
+    padding-top: 30px;
+    padding-bottom: 0px;
+    background-color:#bce5ec;
+    
+    border-color:#F0F8FF;
+}
+.button {
+    text-align:center;
+    background-color:transparent;
+    padding: 14px 18px;
+    border-radius: 12px;
+}
+.button1 {
+    background-color: transparent;
+    color:#F0F8FF;
+}
+
+.button1:hover {
+    background-color:#A9A9A9;
+    color: black;
+    
+}
+.col-container {
+    display: table;
+    width: 50%;
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color:#A9A9A9;
+}
+.col {
+    display: table-cell;
+    font-style: normal;
+    font-family: "Times New Roman",serif;
+    color:black;
+}
+
+</style>
+</head>
+<body>
+<center>
+<br/><br/><br/>
+<center>
+<fieldset>
+<br/>
+<font size="5" color="teal"><b>WELCOME TO PRESIDENCY UNIVERSITY</b></font>
+<br/><br/><br/>
+<div class="col-container">
+<center>
+<span class="image main"><img src="pic01.jpeg"  width="420" height="220" algin="left"></span>
+</center>  </br>
+<center><div class="col" >
+<b><h5>
+Presidency University's vision is to be a world-class University.We believe in nurturing talent amongst all those who enter our portals.Through this close nurturing of talent and skills in each individual, we aim to transform students to become successful professionals and responsible citizens. We accomplish all these through excellence in teaching, best in pedagogy borrowed from the world, an efficient research and study cell, service and community development in focus. Our commitment is towards shaping lives of students through scholarly exposure, pedagogy and learning and that which contributes to making the youth future ready for the world at large.
+<br>
+The University has a good hostel facility separate for boys and girls. Keeping the future needs, a new state of the art hostel block is coming up for providing additional capacity to accommodate 450 students near the University campus. Resident students are provided furnished accommodation comprising cot, chair, cupboard, internet wi-fi, etc. Each hostel is provided with independent dining area and common rooms, TV, etc. Hostel has indoor games facility. Hot and cold drinking water facility is provided in the hostel. Transport facility is provided to girl students during weekends and on holidays to go to nearby Yelahanka new town for shopping.
+
+</h5></b>
+  </div>
+</center>
+</div>
+
+<button onclick="window.location.href='main.html'" class="button button1"><b>Back</b></button>
+<br/><br/><br/>
+</fieldset>
+<center>
+<br/><br/><br/>
+</body>
+</html>
+
+
+GALLERY
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: gray;
+    padding: 20px;
+    font-family: Arial;
+}
+
+/* Center website */
+.main {
+    max-width: 1000px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 50px;
+    word-break: break-all;
+}
+
+.row {
+    margin: 10px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+    padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.33%;
+    display: none; /* Hide all elements by default */
+}
+
+/* Clear floats after rows */ 
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Content */
+.content {
+    background-color: white;
+    padding: 10px;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<!-- MAIN (Center website) -->
+<div class="main">
+
+<h1>PU-HOSTEL</h1>
+<hr>
+
+<h2>GALLERY</h2>
+
+<div id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('all')"> Hostel</button>
+ <!-- <button class="btn" onclick="filterSelection('nature')"> Boy's hostel</button>
+  <button class="btn" onclick="filterSelection('cars')"> Girl's hostel</button>
+  <button class="btn" onclick="filterSelection('people')"> #</button>
+</div>
+-->
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class=" column Boy's Hostel">
+    <div class="content">
+      <img src="gal1.jpeg" alt="" style="width:100%">
+      <h4>Boy's hostel</h4>
+      <p>good ambience</p>
+    </div>
+  </div>
+  <div class="column Boy's Hostel">
+    <div class="content">
+    <img src="hos.jpeg" alt="" style="width:71%">
+      <h4>Rooms</h4>
+      <p>Cupboard and wifi available </p>
+    </div>
+  </div>
+  <div class="column Boy's Hostel">
+    <div class="content">
+    <img src="gal1.jpeg" alt="" style="width:100%">
+      <h4>Enterance</h4>
+      <p>100% security with surveillance </p>
+    </div>
+  </div>
+  
+  <div class="column Girl's Hostel">
+    <div class="content">
+      <img src="hostel01.jpeg" alt="" style="width:100%">
+      <h4>Girl's hostel</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+ 
+<!-- END GRID -->
+</div>
+
+<!-- END MAIN -->
+</div>
+
+<script>
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("column");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
+-->
+</body>
+</html>
+
+
+LOGIN
+
+<html>
+<head>
+<title>login</title>
+<style>
+body {
+ background-image: url("campus.jpeg");
+ background-repeat:no-repeat;
+ background-size: 1400px 930px;
+ color: white;
+}
+b.serif {
+    font-family:"Times New Roman",Timer, serif;
+}
+fieldset { 
+    display: block;
+    margin-left: 250px;
+    margin-right:250px;
+    padding-top: 30px;
+    padding-bottom: 0px;
+    background-color:#bce5ec;
+    
+    border-color:#F0F8FF;
+}
+.button {
+    text-align:center;
+    background-color:transparent;
+    padding: 14px 18px;
+    border-radius: 12px;
+}
+.button1 {
+    background-color: transparent;
+    color:#F0F8FF;
+}
+
+.button1:hover {
+    background-color:#A9A9A9;
+    color: black;
+    
+}
+.col-container {
+    display: table;
+    width: 50%;
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color:#A9A9A9;
+}
+.col {
+    display: table-cell;
+    font-style: normal;
+    font-family: "Times New Roman",serif;
+}
+
+</style>
+<script>
+function validate()
+ {
+        if( document.myForm.Hostel-ID.value == "" ||
+ 	isNaN( document.myForm.Hostel-ID.value ) ||
+ 	document.myForm.Hostel-ID.value.length != 15 )
+ 	{
+ 	alert( "Please provide a valid number." );
+ 	document.myForm.Hostel-ID.focus() ;
+ 	return false;
+ 	}
+        alert("Registered successfully");
+	return (true)
+	}
+</script>
+</head>
+<body>
+<br/><br/><br/><br/><br/><br/>
+<center><font size="7" color="teal"><b>LogIn</b></font></center>
+<center>
+
+<form name = "myForm" onsubmit="return(validate());" action="login.php" method="post">
+
+<br/><br/><br/>
+<div class="st">
+<fieldset>
+<br/><br/><br/>
+<b>name:</b> <input type="text"  placeholder="Enter a valid ID" name="name" required>
+<br/><br/><br/>
+<b>Password:</b> <input type="password" placeholder="Password" name="password" required>
+<br/><br/><br/><br/><br/>
+
+<button onclick="window.location.href='homepage.php'" class="button button1"><b>login</b></button>
+<br/><br/><br/>	
+</fieldset>
+</div>
+</form>
+
+</center>
+
+</body>
+
+</html>
+
+
+</body>
+</html>
+
+
+<?php
+session_start();
+$db_host="localhost";
+$db_user="root";
+$db_password="kruti1827";
+$db_name="hostel";
+
+$name=$_POST['name'];
+$pw=$_POST['password'];
+$_SESSION['id']=$name;
+
+$con=mysqli_connect($db_host,$db_user,$db_password.$db_name) or die ("error quering database");
+$query="select *from login where name='name' and password='$pw'";
+$result=mysqli_query($con,$query) or die ("eroor querying ddatabase");
+$row=mysqli_fetch_array($result);
+if(row['password'==$pw && $row[user]==1)
+{
+	header('location:main1.html');
+}
+elseif($row['password']==$pw)
+{
+echo "#";
+
+}
+else
+{
+echo "error,invalid password <br/>";
+echo"<a href='login.php'>go back"}
+
+}
+?>
+
+
+CONTACT 
+
+
+<html>
+<head>
+<title>Contact</title>
+<style>
+body {
+ background-image: url("campus.jpeg");
+ background-repeat:no-repeat;
+ background-size: 1400px 930px;
+ color: white;
+}
+fieldset { 
+    display: block;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #cc000000;
+}
+.button {
+    text-align:center;
+    background-color:transparent;
+    padding: 14px 18px;
+}
+.button1 {
+    background-color: transparent;
+    color: white;
+}
+
+.button1:hover {
+    background-color: #e7e7e7;
+    color: red;
+}
+.col-container {
+    display: table;
+    width: 50%;
+}
+.col {
+    display: table-cell;
+}
+</style>
+</head>
+<body>
+<center>
+<br/>
+<center><font size="7" color="teal"><b>Contact</b></font></center>
+<br/>
+<fieldset>
+<br/>
+<div class="col-container">
+  <div class="col" >
+<center><h2> Warden Details</h2></center>
+<h4>Female Chief Warden</h4>
+<p><b>Name:</b> Dr. N Mehala <br> 
+<b>Email:</b> xyz@presidencyuniversity.in <br> 
+<b>Mobile No: </b>+91 XXXXXXXXXX <br> 
+ASSISTANT PROFESSOR, COMPUTER SCIENCE ENGINEERING, SCHOOL OF ENGINEERING , IN-CHARGE ERP AND CHIEF WARDEN (GIRLS)</p>
+<br/><br/>
+<h4>Male Chief Warden</h4>
+<p><b>Name:</b> Dr. D C Kiran <br> 
+<b>Email:</b> abc@presidencyuniversity.in <br> 
+<b> Mobile No: </b>+91 XXXXXXXXXX <br> 
+ASSISTANT PROFESSOR, COMPUTER SCIENCE ENGINEERING, SCHOOL OF ENGINEERING ,CHIEF WARDEN AND IN-CHARGE STUDENT WELFARE</p>
+</article>
+</div>
+</div>
+</div>
+<br/><br/><br/><br/><br/>
+<button onclick="window.location.href='main.html'" class="button button1"><b>Back</b></button>
+<br/><br/><br/>
+</fieldset>
+</center>
+<br/><br/><br/>
+</body>
+</html>
+
+
+
+CALENDER
+
+<html>
+<head>
+
+
+
+
+<style type="text/css">
+
+.main {
+width:200px;
+border:1px solid black;
+}
+
+.month {
+background-color:black;
+font:bold 12px verdana;
+color:white;
+}
+
+.daysofweek {
+background-color:gray;
+font:bold 12px verdana;
+color:white;
+}
+
+.days {
+font-size: 12px;
+font-family:verdana;
+color:black;
+background-color: lightyellow;
+padding: 2px;
+}
+
+.days #today{
+font-weight: bold;
+color: red;
+}
+
+</style>
+
+
+
+<script type="text/javascript" src="basiccalendar.js">
+
+/***********************************************
+* Basic Calendar-By Brian Gosselin at http://scriptasylum.com/bgaudiodr/
+* Script featured on Dynamic Drive (http://www.dynamicdrive.com)
+* This notice must stay intact for use
+* Visit http://www.dynamicdrive.com/ for full source code
+***********************************************/
+
+</script> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<form>
+<select onChange="updatecalendar(this.options)">
+<script type="text/javascript">
+
+var themonths=['January','February','March','April','May','June',
+'July','August','September','October','November','December']
+
+var todaydate=new Date()
+var curmonth=todaydate.getMonth()+1 //get current month (1-12)
+var curyear=todaydate.getFullYear() //get current year
+
+function updatecalendar(theselection){
+var themonth=parseInt(theselection[theselection.selectedIndex].value)+1
+var calendarstr=buildCal(themonth, curyear, "main", "month", "daysofweek", "days", 0)
+if (document.getElementById)
+document.getElementById("calendarspace").innerHTML=calendarstr
+}
+
+document.write('<option value="'+(curmonth-1)+'" selected="yes">Current Month</option>')
+for (i=0; i<12; i++) //display option for 12 months of the year
+document.write('<option value="'+i+'">'+themonths[i]+' '+curyear+'</option>')
+
+
+</script>
+</select>
+
+<div id="calendarspace">
+<script>
+//write out current month's calendar to start
+document.write(buildCal(curmonth, curyear, "main", "month", "daysofweek", "days", 0))
+</script>
+</div>
+
+</form>
+
+
+
+
+
+</body>
+</html>
+
+EDIT PROFILE
+
+<?php
+require 'db.php';
+$message = '';
+if (isset ($_POST['Pname'])  && isset($_POST['Mname'])&& isset($_POST['dim'])&& isset($_POST['price'])) {
+$Pname = $_POST['Pname'];
+$Mname = $_POST['Mname'];
+$dim = $_POST['dim'];
+$price = $_POST['price'];
+  $sql = 'INSERT INTO product(Pname,Mname,dim,price) VALUES(:Pname,:Mname,:dim, :price)';
+  $statement = $connection->prepare($sql);
+  if ($statement->execute([':Pname' => $Pname,':Mname' => $Mname,':dim' => $dim, ':price' => $price])) {
+    $message = 'data inserted successfully';
+  }
+}
+
+ ?>
+<?php require 'header.php'; ?>
+<div class="container">
+  <div class="card mt-5">
+    <div class="card-header">
+      <h2>Add Product</h2>
+    </div>
+    <div class="card-body">
+      <?php if(!empty($message)): ?>
+        <div class="alert alert-success">
+          <?= $message; ?>
+        </div>
+      <?php endif; ?>
+      <form method="post">
+        <div class="form-group">
+          <label for="Pname">Product name</label>
+          <input type="text" name="Pname" id="Pname" class="form-control">
+        </div>
+<div class="form-group">
+          <label for="Mname">Manufacturer name</label>
+          <input type="text" name="Mname" id="Mname" class="form-control">
+        </div>
+<div class="form-group">
+          <label for="Dim">Dimesion</label>
+          <input type="text" name="dim" id="dim" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="Price">Price</label>
+          <input type="text" name="price" id="price" class="form-control">
+        </div>
+        <div class="form-group">
+          <button type="submit" class="btn btn-info">Submit entry</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+<?php require 'footer.php'; ?>
+
+<?php
+$dsn = 'mysql:host=localhost;dbname=project';
+$username = 'root';
+$password = 'kruti1827';
+$options = [];
+try {
+$connection = new PDO($dsn, $username, $password, $options);
+} catch(PDOException $e) {
+}
+
+DELETE
+<?php
+require 'db.php';
+$id = $_GET['id'];
+$sql = 'DELETE FROM product WHERE id=:id';
+$statement = $connection->prepare($sql);
+if ($statement->execute([':id' => $id])) {
+  header("Location:index.php");
+}
+
+<?php
+require 'db.php';
+$id = $_GET['id'];
+$sql = 'SELECT * FROM product WHERE id=:id';
+$statement = $connection->prepare($sql);
+$statement->execute([':id' => $id ]);
+$person = $statement->fetch(PDO::FETCH_OBJ);
+if (isset ($_POST['Pname'])  && isset($_POST['Mname'])&& isset($_POST['dim'])&& isset($_POST['price'])) {
+$Pname = $_POST['Pname'];
+$Mname = $_POST['Mname'];
+$dim = $_POST['dim'];
+$price = $_POST['price'];
+$sql = 'UPDATE product SET Pname=:Pname,Mname=:Mname,dim=:dim,price=:price WHERE id=:id';
+$statement = $connection->prepare($sql);
+  if ($statement->execute([':Pname' => $Pname,':Mname'=>$Mname,':dim'=>$dim, ':price' => $price, ':id' => $id])) {
+    header("Location:index.php");
+  }
+}
+ ?>
+<?php require 'header.php'; ?>
+<div class="container">
+  <div class="card mt-5">
+    <div class="card-header">
+      <h2>Update person</h2>
+    </div>
+    <div class="card-body">
+      <?php if(!empty($message)): ?>
+        <div class="alert alert-success">
+          <?= $message; ?>
+        </div>
+      <?php endif; ?>
+      <form method="post">
+        <div class="form-group">
+          <label for="Pname">Pname</label>
+          <input value="<?= $person->Pname; ?>" type="text" name="Pname" id="Pname" class="form-control">
+        </div>
+<div class="form-group">
+          <label for="Mname">Mname</label>
+          <input value="<?= $person->Mname; ?>" type="text" name="Mname" id="Mname" class="form-control">
+        </div>
+<div class="form-group">
+          <label for="dim">Dim</label>
+          <input value="<?= $person->dim; ?>" type="text" name="dim" id="dim" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="price">Price</label>
+          <input type="text" value="<?= $person->price; ?>" name="price" id="price" class="form-control">
+        </div>
+        <div class="form-group">
+          <button type="submit" class="btn btn-info">Update Product</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+<?php require 'footer.php'; ?>
+
+
+NOTIFICATION
+
+<html>
+<head>
+</head>
+
+<style>
+body
+{
+
+			.nav {list-style:none;margin: 0px;padding: 0px;}
+			#nav li {
+			float: left;
+			margin-right: 20px;
+			font-family: Arial;
+			font-size: 14px;
+			font-weight:bold;
+			}
+			#nav li a{color:#333333;text-decoration:none}
+			#nav li a:hover{color:#006699;text-decoration:none}
+
+
+			#notification_li
+			{
+			position:relative
+			}
+			#notificationContainer 
+			{
+			background-color: #fff;
+			border: 1px solid rgba(100, 100, 100, .4);
+			-webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, .25);
+			overflow: visible;
+			position: absolute;
+			top: 30px;
+			margin-left: -170px;
+			width: 400px;
+			z-index: -1;
+			display: none; // Enable this after jquery implementation 
+			}
+			// Popup Arrow
+			#notificationContainer:before {
+			content: '';
+			display: block;
+			position: absolute;
+			width: 0;
+			height: 0;
+			color: transparent;
+			border: 10px solid black;
+			border-color: transparent transparent white;
+			margin-top: -20px;
+			margin-left: 188px;
+			}
+			#notificationTitle
+			{
+			font-weight: bold;
+			padding: 8px;
+			font-size: 13px;
+			background-color: #ffffff;
+			position: fixed;
+			z-index: 1000;
+			width: 384px;
+			border-bottom: 1px solid #dddddd;
+			}
+			#notificationsBody
+			{
+			padding: 33px 0px 0px 0px !important;
+			min-height:300px;
+			}
+			#notificationFooter
+			{
+			background-color: #e9eaed;
+			text-align: center;
+			font-weight: bold;
+			padding: 8px;
+			font-size: 12px;
+			border-top: 1px solid #dddddd;
+			}
+
+
+
+		.notification_count {
+		padding: 3px 7px 3px 7px;
+		background: #cc0000;
+		color: #ffffff;
+		font-weight: bold;
+		margin-left: 77px;
+		border-radius: 9px;
+		-moz-border-radius: 9px; 
+		-webkit-border-radius: 9px;
+		position: absolute;
+		margin-top: -11px;
+		font-size: 11px;
+		}
+}
+</style>
+<body>
+
+<ul id="nav">
+		<li><a href="#">Link1</a></li>
+		<li><a href="#">Link2</a></li>
+		<li><a href="#">Link3</a></li>
+		<li id="notification_li">
+		<a href="#" id="notificationLink">Notifications</a>
+			<span id="notification_count"></span>
+
+			<div id="notificationContainer">
+			<div id="notificationTitle">Notifications</div>
+			<div id="notificationsBody" class="notifications"></div>
+			<div id="notificationFooter"><a href="#">See All</a></div>
+			</div>
+
+		</li>
+		<li><a href="#">Link4</a></li>
+		</ul>
+<script>
+		$(document).ready(function()
+			{
+			$("#notificationLink").click(function()
+			{
+			$("#notificationContainer").fadeToggle(300);
+			$("#notification_count").fadeOut("slow");
+			return false;
+			});
+
+			//Document Click hiding the popup 
+			$(document).click(function()
+			{
+			$("#notificationContainer").hide();
+			});
+
+			//Popup on click
+			$("#notificationContainer").click(function()
+			{
+			return false;
+			});
+
+			});
+</script>
+
+</body>
+</html>
